@@ -1,0 +1,18 @@
+<div class="timer">
+  <div class="timer__time">
+    {{ zeroh }}{{ hours }}:{{ zerom }}{{ minutes }}:{{ zeros }}{{ seconds }}
+  </div>
+  <div class="timer__nav-btn__wrapper">
+    <button class="timer__nav-btn" (click)="startstopTimer()">
+      Start / Stop
+    </button>
+
+    <span
+      ><button class="timer__nav-btn" id="#pause" (click)="pauseTimer()">
+        Wait
+      </button></span
+    >
+
+    <button class="timer__nav-btn" (click)="resetTimer()">Reset</button>
+  </div>
+</div>

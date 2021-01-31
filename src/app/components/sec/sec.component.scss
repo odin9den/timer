@@ -1,0 +1,27 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 100px auto;
+}
+.timer__time {
+  display: block;
+  margin: 0 auto 50px;
+  font-size: 40px;
+}
+.timer__nav-btn__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.timer__nav-btn {
+  border: 1px solid #94943d;
+  border-radius: 5px;
+  padding: 5px 10px;
+  background-color: rgba($color: #ffff8f, $alpha: 0.5);
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: rgba($color: #ffff8f, $alpha: 1);
+  }
+}
